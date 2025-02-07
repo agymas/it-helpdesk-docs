@@ -1,0 +1,18 @@
+Langkah-langkah yang harus dilakukan
+1. Masuk sebagai administrator. 
+2. Jalankan file GUI760_9-80003144.EXE (Jika belum terinstall SAP 760 patch 9)
+3. Copy file Pertamina_Logo.png ke C:\Windows\
+4. Jalankan Konfigurasi_SAPGUI760.bat
+
+Jika terjadi kendala:
+1. Periksa file C:\Windows\System32\drivers\etc\services. 
+- apakah sudah terdapat konten berikut: 
+sapmsPET		3600/tcp
+sapmsPEP		3610/tcp
+sapmsPRD		3600/tcp
+sapmsACP		3610/tcp
+sapmsPES		3600/tcp
+sapmsHCP		3610/tcp
+- jika belum maka ditambahkan secara manual 
+
+2. Periksa apakah file SAPUILandscape.xml di %USERPROFILE%\AppData\Roaming\SAP\Common tersedia atau tidak, jika belum tersedia create file manual file SAPUILandscape.xml, kemudian jalankan file Konfigurasi_SAPGUI760.bat. 
