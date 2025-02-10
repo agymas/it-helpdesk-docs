@@ -2,7 +2,40 @@
 
 Selamat datang di pusat bantuan IT Helpdesk Pelita Air. Di sini Anda akan menemukan berbagai panduan untuk mengatasi masalah teknis
 ## 🔹 VPN
-- Panduan Aplikasi VPN : [Aplikasi VPN (PPTX)](Aplikasi VPN.pptx)
+### Bagaimana cara menginstall VPN DI PC/Desktop?
+- Install Installer VPN Forti (Untuk Perangkat PC / Desktop), dapat diunduh pada link berikut : https://bit.ly/VPN-PAS
+- klik next sampai berhasil diinstall
+- Aplikasi VPN yang sudah diinstall akan muncul di taskbar windows disebelah kanan
+- Selanjutnya klik kanan pada icon FortiClient tersebut, lalu klik Open FortiClient Console 
+- Tunggu hingga FortiClient Console terbuka lalu klik Configure VPN 
+- Lakukan Konfigurasi Untuk Username : Masukkan nama account email (tanpa pakai @pelita-air.com dan tanpa @pertamina.com)
+- Selanjutnya Klik Save untuk menyimpan konfigurasi
+- Tim IT Pelita Air mengalokasikan Licensed Forti Token (melalui Forti Admin) ke user account yang sekiranya memerlukan akses VPN
+- Setelah Tim IT Pelita Air mengalokasikan token ke user account, selanjutnya user akan menerima notifikasi berisi kode aktivasi dan tanggal kadaluarsa aktivasi melalui SMS dan email 
+- Silahkan Pilih salah satu metode (Scan Barcode atau Enter Manually) 
+- Cek Email Notifikasi yang diterima sebelumnya. Note : Batas waktu untuk pairing adalah maksimal 2 (hari) sejak email notifikasi tersebut diterima
+- Kode Forti Token Anda (kode akan berganti secara acak berdasarkan timer)
+- Apabila menggunakan VPN Forti di Laptop / PC : Input Username & Password dan Klik Connect
+- Input Token, Kemudian Klik OK dan tunggu hingga VPN berhasil connect
+- untuk Panduan lengkap Aplikasi VPN : [Aplikasi VPN (PPTX)](Aplikasi VPN.pptx)
+
+### Bagaimana cara menggunakan VPN di perangkat HP?
+- Pastikan User sudah menginstall Forti Token di Perangkat HandPhone dan pastikan user sudah mensetting account emailnya (account email ….@pelita-air.com) 
+- Tim IT Pelita Air mengalokasikan Licensed Forti Token (melalui Forti Admin) ke user account yang sekiranya memerlukan akses VPN
+- Setelah Tim IT Pelita Air mengalokasikan token ke user account, selanjutnya user akan menerima notifikasi berisi kode aktivasi dan tanggal kadaluarsa aktivasi melalui SMS dan email 
+- Setelah Aplikasi Forti Token terinstall, buka aplikasi Forti Token pada Perangkat Handphone anda
+- Silahkan Pilih salah satu metode (Scan Barcode atau Enter Manually) 
+- Cek Email Notifikasi yang diterima sebelumnya. Note : Batas waktu untuk pairing adalah maksimal 2 (hari) sejak email notifikasi tersebut diterima
+- Kode Forti Token Anda (kode akan berganti secara acak berdasarkan timer)
+- Buka Web Browser Ketik : https://203.135.179.226:443 Input Username dan Password Klik Login (akan muncul Pop Up) Token : (Input Token yang muncul dari Fortitoken)
+- Download berdasarkan jenis Operating System yang digunkan oleh perangkat handphone anda
+- Lalu User akan diarahkan sesuai device
+- Setelah ter-install, User Klik New VPN, Lalu Setting koneksi VPN dengan Server: 203.135.179.226, Port 443 dan masukkan Username, dan setelah semua sudah sesuai klik Garis 3 di atas kanan       dan Klik VPN
+- Setelah itu klik VPN yang sudah di setting tadi dan Klik Connect, lalu isi Username & Password Dan klik Login
+- Setelah login Username & Password, muncul Untrusted Certificate, Klik Proceed dan isi token yang ada pada forti token mobile & Vpn sudah berhasil ter-koneksi
+- untuk Panduan lengkap Aplikasi VPN : [Aplikasi VPN (PPTX)](Aplikasi VPN.pptx)
+
+
 ## 🔹 SAP
 - Pengajuan Pembuatan Akun User ID SAP : [Pengajuan Pembuatan Akun User ID SAP (PPTX)](SAP-Pengajuan Pembuatan Akun User ID SAP.pptx)
 - Kendala-User Account not in Validity Date : [SAP-Kendala-User Account not in Validity Date (PPTX)](SAP-Kendala-User Account not in Validity Date.pptx)
